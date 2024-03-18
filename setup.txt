@@ -1,5 +1,7 @@
 wav2lip_onnx
 
+install ffmpeg or put ffmpeg.exe into wav2lip-onnx-hq root directory
+
 clone repo
 
 conda create -n ENV_NAME python==3.11
