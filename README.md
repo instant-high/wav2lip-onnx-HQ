@@ -1,5 +1,4 @@
 # wav2lip-onnx-HQ
-Full version of wav2lip-onnx including face alignment and face enhancement and more...
 
 Just another Wav2Lip HQ local installation, fully running on Torch to ONNX converted models for:
 - face-detection
@@ -19,6 +18,9 @@ I've made some modifications such as:
 * Select the target face area, not  a real face recognition, which also makes inference faster.
 * Use two audio files, eg. vocal for driving and full music mix for final output.
 * This version does not crash if no face is detected, it just continues ...
+ 
+Model download - https://drive.google.com/drive/folders/1BGl9bmMtlGEMx_wwKufJrZChFyqjnlsQ?usp=sharing
+
 
 Original wav2lip - https://github.com/Rudrabha/Wav2Lip
 
@@ -27,3 +29,5 @@ Face enhancers taken from -  https://github.com/harisreedhar/Face-Upscalers-ONNX
 Face detection taken from - https://github.com/neuralchen/SimSwap
 
 Face occluder taken from - https://github.com/facefusion/facefusion-assets/releases
+
+
