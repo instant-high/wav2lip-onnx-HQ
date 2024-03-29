@@ -4,5 +4,5 @@ tqdm
 librosa
 numba
 imutils
-insightface
-onnxruntime
+insightface==0.7.3
+onnxruntime==1.14.1
