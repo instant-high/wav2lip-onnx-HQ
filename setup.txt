@@ -14,7 +14,7 @@ pip install insightface>=0.7.3 never worked for me but downloaded file did:
 pip install insightface-0.7.3-cp311-cp311-win_amd64.whl
 
 pip install onnx
-pip install onnxruntime
+pip install onnxruntime==1.14.1
 
 pip install opencv-contrib-python
 
@@ -22,4 +22,4 @@ pip install opencv-contrib-python
 
 conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
 pip uninstall onnxuntime
-pip install onnxruntime-gpu
+pip install onnxruntime-gpu==1.14.1
