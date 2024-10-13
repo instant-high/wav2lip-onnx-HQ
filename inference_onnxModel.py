@@ -111,7 +111,7 @@ def load_model(device):
 def face_detect(images):
 
 	detector = Face_detect_crop(name='antelope', root='./insightface_func/models')
-	detector.prepare(ctx_id= 0, det_thresh=0.6, det_size=(320,320),mode='ffhq')
+	detector.prepare(ctx_id= 0, det_thresh=0.3, det_size=(320,320),mode='ffhq')
 	
 	os.system('cls')
 	print ("Detecting face and generating data...")
