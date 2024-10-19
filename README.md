@@ -10,10 +10,13 @@ Update 2024.10.19
 
 Just another Wav2Lip HQ local installation, fully running on Torch to ONNX converted models for:
 - face-detection
+- face-recognition
 - face-alignment
 - face-parsing
 - face-enhancement
 - wav2lip inference.
+
+.
 
 Can be run on CPU or Nvidia GPU
 
@@ -26,6 +29,10 @@ I've made some modifications such as:
 * Select the target face area, not  a real face recognition, which also makes inference faster.
 * Use two audio files, eg. vocal for driving and full music mix for final output.
 * This version does not crash if no face is detected, it just continues ...
+
+Type --help for all commandline parameters
+
+.
  
 Model download - https://drive.google.com/drive/folders/1BGl9bmMtlGEMx_wwKufJrZChFyqjnlsQ?usp=sharing
 
@@ -37,5 +44,13 @@ Face enhancers taken from -  https://github.com/harisreedhar/Face-Upscalers-ONNX
 Face detection taken from - https://github.com/neuralchen/SimSwap
 
 Face occluder taken from - https://github.com/facefusion/facefusion-assets/releases
+
+Blendmasker extracted from - https://github.com/mapooon/BlendFace during onnx conversion
+
+Face recognition for specifc face taken from - https://github.com/jahongir7174/FaceID
+
+.
+
+.
 
 
