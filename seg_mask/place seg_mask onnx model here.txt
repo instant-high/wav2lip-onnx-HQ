@@ -1,1 +1,0 @@
-place seg_mask onnx model here
