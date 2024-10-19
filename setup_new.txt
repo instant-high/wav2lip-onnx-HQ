@@ -1,0 +1,24 @@
+wav2lip_onnx
+
+clone repo
+
+conda create -n ENV_NAME python==3.11
+conda activate ENV_NAME
+cd c:\env\env_path
+
+pip install -r requirements.txt
+
+rem not needed anymore:
+rem pip install insightface>=0.7.3 never worked for me but downloaded file did:
+rem pip install insightface-0.7.3-cp311-cp311-win_amd64.whl
+
+pip install onnx
+pip install onnxruntime==1.14.1
+
+pip install opencv-contrib-python
+
+############# GPU ###############
+
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+pip uninstall onnxuntime
+pip install onnxruntime-gpu==1.14.1
