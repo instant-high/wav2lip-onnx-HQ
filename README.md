@@ -1,4 +1,12 @@
 # wav2lip-onnx-HQ
+Update 2024.10.19
+
+  - Replaced insightface with retinaface detection/alignment for easier installation
+  - Replaced seg-mask with faster blendmasker
+  - Added free cropping of final result video
+  - Added specific target face selection from first frame
+
+.
 
 Just another Wav2Lip HQ local installation, fully running on Torch to ONNX converted models for:
 - face-detection
